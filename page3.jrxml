@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2016-01-25T02:24:56 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="phase1" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5df9b19a-398e-43a2-b6e3-330d03dbb4c8">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="284"/>
+	<property name="com.jaspersoft.studio.unit." value="cm"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 5_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 6_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 6_TH" mode="Opaque" backcolor="#B7DEE8">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 6_TD" mode="Opaque" backcolor="#D9D9D9">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+		<conditionalStyle>
+			<conditionExpression><![CDATA[new Boolean($V{REPORT_COUNT}.intValue()%2==0)]]></conditionExpression>
+			<style backcolor="#F2F2F2"/>
+		</conditionalStyle>
+	</style>
+	<style name="Table 7_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 7_TH" mode="Opaque" backcolor="#B7DEE8">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 7_TD" mode="Opaque" backcolor="#D9D9D9">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+		<conditionalStyle>
+			<conditionExpression><![CDATA[new Boolean($V{REPORT_COUNT}.intValue()%2==0)]]></conditionExpression>
+			<style backcolor="#F2F2F2"/>
+		</conditionalStyle>
+	</style>
+	<style name="Table 8_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 8_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 8_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 9_TH" mode="Opaque" backcolor="#B7DEE8">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 9_CH" mode="Opaque" backcolor="#0070C0">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 9_TD" mode="Opaque" backcolor="#D9D9D9">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+		<conditionalStyle>
+			<conditionExpression><![CDATA[new Boolean($V{REPORT_COUNT}.intValue()%2==0)]]></conditionExpression>
+			<style backcolor="#F2F2F2"/>
+		</conditionalStyle>
+	</style>
+	<subDataset name="AquestionsDataset" uuid="c6231d91-76d1-4f85-a68e-a0ee71068b23">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="aQuestion" class="java.lang.String"/>
+	</subDataset>
+	<subDataset name="AanswersDataset" uuid="5e683713-fce0-4167-9d43-d83c8beb68b2">
+		<parameter name="AScore" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="aAnswer1" class="java.lang.String"/>
+		<field name="aAnswer2" class="java.lang.String"/>
+	</subDataset>
+	<subDataset name="Bquestions" uuid="ed017244-a00e-4287-8b25-f25b71ee088f">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+	</subDataset>
+	<subDataset name="B3questionsDataset" uuid="a071db95-2b40-40d7-99ab-590102d0da76">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="b3Question" class="java.lang.String"/>
+	</subDataset>
+	<parameter name="logo" class="java.io.File" isForPrompting="false">
+		<parameterDescription><![CDATA[]]></parameterDescription>
+	</parameter>
+	<parameter name="smily" class="java.io.File" isForPrompting="false"/>
+	<parameter name="codeAndAddress" class="java.lang.String" isForPrompting="false"/>
+	<parameter name="mcsCode" class="java.lang.String" isForPrompting="false"/>
+	<parameter name="ItemDatasource" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<parameter name="ItemDatasource2" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<parameter name="AquestionsDatasource" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<parameter name="AanswersDatasource" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<parameter name="storeCode" class="java.lang.String" isForPrompting="false"/>
+	<parameter name="storeName" class="java.lang.String" isForPrompting="false"/>
+	<parameter name="storeAddress" class="java.lang.String" isForPrompting="false"/>
+	<parameter name="inTime" class="java.lang.String" isForPrompting="false"/>
+	<parameter name="outTime" class="java.lang.String" isForPrompting="false"/>
+	<parameter name="visitMonth" class="java.lang.String"/>
+	<parameter name="visitDay" class="java.lang.String"/>
+	<parameter name="investigationTime" class="java.lang.String"/>
+	<parameter name="storePersonName" class="java.lang.String"/>
+	<parameter name="appearance" class="java.lang.String"/>
+	<parameter name="employees" class="java.lang.String"/>
+	<parameter name="customers" class="java.lang.String"/>
+	<parameter name="surveyor" class="java.lang.String"/>
+	<parameter name="gender" class="java.lang.String"/>
+	<parameter name="age" class="java.lang.String"/>
+	<parameter name="surveyorPhoneBrand" class="java.lang.String"/>
+	<parameter name="surveyorPhoneModel" class="java.lang.String"/>
+	<parameter name="surveyorTabletBrand" class="java.lang.String"/>
+	<parameter name="surveyorTabletModel" class="java.lang.String"/>
+	<parameter name="B3questionsDatasource" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<field name="mcsCode" class="java.lang.String"/>
+	<field name="shopCodeAndAddress" class="java.lang.String"/>
+	<field name="evaluationTag" class="java.lang.String"/>
+	<field name="evaluationPercent" class="java.lang.String"/>
+	<pageHeader>
+		<band height="221" splitType="Prevent">
+			<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+			<staticText>
+				<reportElement x="56" y="35" width="443" height="22" uuid="fe6a7226-19a3-48d2-ac25-db86fe9a9692">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Microsoft JhengHei" size="16" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[2016 第一季店家表現報告]]></text>
+			</staticText>
+			<rectangle radius="1">
+				<reportElement x="15" y="57" width="524" height="71" forecolor="#C0C0C0" backcolor="#E0E0E0" uuid="1985ee04-ee85-452d-b549-5237c96d4151">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="3.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="18" y="80" width="198" height="28" uuid="46e2bc87-0ea0-47fe-a082-8e05e7b876a6">
+					<property name="com.jaspersoft.studio.unit.x" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Calibri" size="16" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Samsung – MSP 2016 Q1]]></text>
+			</staticText>
+			<image onErrorType="Blank">
+				<reportElement x="414" y="74" width="122" height="40" uuid="93ba9782-bde6-41fd-8b6e-d56509ee3ac6">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA[$P{logo}]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="16" y="128" width="379" height="18" uuid="8acec2e9-fe2f-4830-93dc-54c360033ac8"/>
+				<textElement>
+					<font fontName="Microsoft JhengHei" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{codeAndAddress}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="462" y="129" width="76" height="18" uuid="e88cc88c-5c57-44f7-bf99-c9f2a924daa2"/>
+				<textElement verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA[$P{mcsCode}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="404" y="127" width="58" height="20" uuid="eeb77ddc-efac-4774-a1fd-acaf6ece62dc">
+					<property name="com.jaspersoft.studio.unit.x" value="cm"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Calibri" size="11"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[MCS Code: ]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="15" y="161" width="524" height="22" backcolor="#E0E0E0" uuid="3764407e-05f6-4655-bbc5-3189d8c9cc76">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.y" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineColor="rgba(0, 0, 0, 0.0)"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="92" y="159" width="370" height="22" uuid="d4c254a5-adfb-428d-89ee-9d17f0b3435e"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Microsoft JhengHei" size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[評估題目表現]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="15" y="198" width="524" height="22" backcolor="#1F497C" uuid="9e4690ef-8f60-4368-a286-5e414a02fd13">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="3.0" lineStyle="Solid"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="17" y="198" width="257" height="23" forecolor="#FFFFFF" uuid="03c97f2d-8f4c-43a1-9063-6f316c25808c"/>
+				<textElement>
+					<font fontName="Microsoft JhengHei" size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Samsung MSP- 2016 Q1 Visit 1]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="524">
+			<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+			<rectangle>
+				<reportElement x="349" y="69" width="190" height="14" uuid="17f13f3a-58cc-4c51-82e8-0e0b30909633"/>
+			</rectangle>
+			<frame>
+				<reportElement x="15" y="182" width="524" height="18" uuid="f2ca6d11-025a-44e9-92e9-6c165e0c6506"/>
+				<box>
+					<topPen lineWidth="3.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="3.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="3.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="3.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<line>
+					<reportElement x="334" y="-1" width="1" height="19" uuid="67e1ee7d-e8bd-41f0-84cb-d3f16b7a9d80"/>
+					<graphicElement>
+						<pen lineWidth="2.0" lineStyle="Solid"/>
+					</graphicElement>
+				</line>
+				<staticText>
+					<reportElement x="2" y="-1" width="261" height="19" uuid="2f0642b3-a3d5-4855-9a81-0ad9c33642a4"/>
+					<textElement verticalAlignment="Bottom">
+						<font fontName="Microsoft JhengHei" size="14"/>
+					</textElement>
+					<text><![CDATA[ 評分項目/題目]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="334" y="-1" width="97" height="19" uuid="8fad3f42-3192-422a-a852-fbb4bb30ef63">
+						<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei"/>
+					</textElement>
+					<text><![CDATA[答案]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="432" y="2" width="91" height="16" uuid="1cab1916-2d51-4b2c-b617-5e6368e682c4"/>
+					<textElement textAlignment="Center">
+						<font fontName="Microsoft JhengHei"/>
+					</textElement>
+					<text><![CDATA[分數]]></text>
+				</staticText>
+			</frame>
+			<textField>
+				<reportElement x="350" y="13" width="189" height="14" uuid="be08c377-b5d6-42cc-8f3f-a43c52123885"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Microsoft JhengHei" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{storeAddress}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="41" width="189" height="14" uuid="505f660e-9491-4902-a44a-99ca466be60c"/>
+				<textElement textAlignment="Center">
+					<font fontName="Microsoft JhengHei" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{inTime}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="55" width="189" height="14" uuid="13615d37-69e8-4486-937d-5d3ec9849a41"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Microsoft JhengHei" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{outTime}]]></textFieldExpression>
+			</textField>
+			<frame>
+				<reportElement x="349" y="0" width="190" height="83" uuid="36bc9bf7-2d00-4076-8a44-3445e494ccb0"/>
+				<box>
+					<topPen lineWidth="2.5"/>
+					<leftPen lineWidth="2.5"/>
+					<bottomPen lineWidth="2.5"/>
+					<rightPen lineWidth="2.5"/>
+				</box>
+				<rectangle>
+					<reportElement x="0" y="-1" width="190" height="14" uuid="8cb0c367-d64f-46bf-a187-1839aec89593">
+						<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					</reportElement>
+					<graphicElement>
+						<pen lineWidth="0.0"/>
+					</graphicElement>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="27" width="190" height="14" uuid="60d83022-3f2f-4524-a89c-fbe204d707e8"/>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="41" width="190" height="14" uuid="88faa6a9-03d7-4edb-a9db-9839273ad7f7"/>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="55" width="190" height="14" uuid="7cadfb39-e4a4-460e-80c4-d1061774bb08"/>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="13" width="190" height="14" uuid="b8d33f3e-adc9-4cad-a200-e0e172968c80"/>
+				</rectangle>
+				<line>
+					<reportElement x="96" y="-2" width="1" height="15" uuid="1d98e8f2-b896-4be7-943f-2f4a8e14a66b"/>
+					<graphicElement>
+						<pen lineStyle="Dashed"/>
+					</graphicElement>
+				</line>
+				<textField>
+					<reportElement positionType="FixRelativeToBottom" x="1" y="0" width="94" height="12" uuid="34ebbed0-9a36-406f-8885-e66f1d2f7e9b"/>
+					<textElement textAlignment="Center" verticalAlignment="Top">
+						<font fontName="Microsoft JhengHei" size="16"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{storeCode}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="97" y="-1" width="92" height="14" uuid="49b90240-71f1-490c-bc61-a635a2639951"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{storeName}]]></textFieldExpression>
+				</textField>
+				<frame>
+					<reportElement x="0" y="83" width="190" height="42" uuid="fb720b7d-e843-4ded-b9a5-ef8103bcd26c"/>
+					<box>
+						<topPen lineWidth="2.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="2.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="2.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="2.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<rectangle>
+						<reportElement x="0" y="0" width="190" height="14" uuid="353b5eed-942c-4de9-b32e-270af62fefd9"/>
+					</rectangle>
+					<rectangle>
+						<reportElement x="0" y="14" width="190" height="14" uuid="6e581d43-2e7c-4c8f-9d74-49d37beb0d46"/>
+					</rectangle>
+					<rectangle>
+						<reportElement x="0" y="28" width="190" height="14" uuid="5f72b356-00c3-4eed-bfc6-43c1bd06987f"/>
+					</rectangle>
+					<line>
+						<reportElement x="96" y="28" width="1" height="15" uuid="a4efd859-26c4-4aac-9177-fd052f0e1262"/>
+						<graphicElement>
+							<pen lineStyle="Dashed"/>
+						</graphicElement>
+					</line>
+					<textField>
+						<reportElement x="2" y="15" width="186" height="12" uuid="01bc14f4-cd52-4e41-8cef-ad99b39cf070"/>
+						<textElement textAlignment="Center" verticalAlignment="Middle">
+							<font fontName="Microsoft JhengHei" size="9"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$P{appearance}]]></textFieldExpression>
+					</textField>
+					<textField>
+						<reportElement x="2" y="28" width="94" height="14" uuid="067107bb-91a1-4cd9-8ec2-b18fbe8efe4d"/>
+						<textElement textAlignment="Center" verticalAlignment="Middle">
+							<font fontName="Microsoft JhengHei" size="9"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$P{employees}]]></textFieldExpression>
+					</textField>
+					<textField>
+						<reportElement x="97" y="28" width="92" height="14" uuid="f209fab5-c02d-47b4-a817-f07d9fd54748"/>
+						<textElement textAlignment="Center" verticalAlignment="Middle">
+							<font fontName="Microsoft JhengHei" size="9"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$P{customers}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<staticText>
+					<reportElement x="70" y="27" width="24" height="14" uuid="4e5aba9e-5743-4277-873f-1d54627f5f96"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<text><![CDATA[月]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="160" y="27" width="30" height="14" uuid="79e0c181-40eb-4ba3-9af7-448591e54eeb"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<text><![CDATA[日]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="2" y="27" width="68" height="14" uuid="efc7eb86-c7cb-4d71-a390-a35e16ed3ab0"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{visitMonth}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="94" y="28" width="64" height="12" uuid="9d638ea8-b20b-4d74-9c3d-ed9575a03f01"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{visitDay}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="2" y="41" width="186" height="14" uuid="ae8afc54-2874-4c5d-93b8-adf38df22a9e"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{inTime}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="55" width="188" height="14" uuid="3180c9a4-5bab-4623-ba93-8dd5819a6851"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{outTime}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="3" y="69" width="184" height="14" uuid="4b308b45-f9b3-4a16-afec-ca708788ee75"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{investigationTime}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="349" y="125" width="190" height="56" uuid="ba9e9c49-76ff-4fbc-9c44-fca4154a2c64"/>
+				<box>
+					<topPen lineWidth="2.0"/>
+					<leftPen lineWidth="2.0"/>
+					<bottomPen lineWidth="2.0"/>
+					<rightPen lineWidth="2.0"/>
+				</box>
+				<rectangle>
+					<reportElement x="0" y="0" width="190" height="14" uuid="730bddcf-094b-47eb-895f-cc9c094d6e9f"/>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="14" width="190" height="14" uuid="b049c454-1e97-413a-9ffc-ba8891c7cb11"/>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="28" width="190" height="14" uuid="86aea8b6-b0b3-4adc-8aa0-1e83ac1b418a"/>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="42" width="190" height="14" uuid="c1c5f190-d4ff-40f9-8cef-0e14f0200206"/>
+				</rectangle>
+				<textField>
+					<reportElement x="1" y="0" width="188" height="14" uuid="8c3bba82-c963-4de5-9908-699009243e45"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{surveyor}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="1" y="14" width="96" height="14" uuid="ad611aea-60df-4ce6-94f9-b534d7898351"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{gender}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="97" y="14" width="92" height="14" uuid="873d067e-979a-44eb-9c37-9dd4dead2b2f"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{age}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="2" y="29" width="94" height="12" uuid="1bf17b22-b307-4806-bc9a-451124bc2bf1"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{surveyorPhoneBrand}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="98" y="29" width="92" height="12" uuid="5e5d587b-091c-4e5d-a080-3d5c67b64823"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{surveyorPhoneModel}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="2" y="43" width="94" height="14" uuid="82e13f0e-2922-4101-ad95-89cfcacb9850"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{surveyorTabletBrand}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="98" y="42" width="92" height="14" uuid="4eed1f6a-e70c-42ba-838e-3e3efa923be6"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{surveyorTabletModel}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="15" y="83" width="334" height="42" uuid="86805ad2-1ffc-4abb-9a54-e4d126e1cc28"/>
+				<box>
+					<topPen lineWidth="2.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="2.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="2.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="2.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<rectangle>
+					<reportElement x="0" y="0" width="334" height="14" uuid="46ba431d-3f96-43b0-96e8-6868ca3c5ac9">
+						<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					</reportElement>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="14" width="334" height="14" uuid="533551bb-a937-4ff5-9511-bf13ecdc4164">
+						<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					</reportElement>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="28" width="334" height="14" uuid="2b70cf71-78b4-4bc3-9b61-f95f8100e1c2">
+						<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					</reportElement>
+				</rectangle>
+				<staticText>
+					<reportElement x="50" y="0" width="281" height="14" uuid="6511b225-6184-48e0-9f00-62e7d0db02ea"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<text><![CDATA[店員姓名 ]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="50" y="14" width="281" height="14" uuid="210a674e-f318-427b-a598-a947f3105ebd"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<text><![CDATA[店員外表特徵 ]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="50" y="28" width="281" height="14" uuid="66dd578e-854c-42f8-8e0d-12e80f145b6d"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<text><![CDATA[店內員工人數 / 剛進店內櫃位顧客人數 ]]></text>
+				</staticText>
+			</frame>
+			<frame>
+				<reportElement x="15" y="0" width="334" height="83" uuid="8cf7290c-32e2-4d57-9154-4b229a0e48c2">
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="2.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="2.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="2.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="2.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<rectangle>
+					<reportElement x="0" y="-1" width="334" height="14" uuid="72063282-c67a-48f7-a1af-ea25dc9a37d3">
+						<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					</reportElement>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="13" width="334" height="14" uuid="544798ed-7099-4a6e-850e-567ac563bb17">
+						<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					</reportElement>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="27" width="334" height="14" uuid="f6acad33-98cd-4834-ba50-33f22145d803">
+						<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					</reportElement>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="41" width="333" height="14" uuid="5fb48009-9389-4075-a0a2-23d03bef02db">
+						<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					</reportElement>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="55" width="333" height="14" uuid="31f8dd70-c06c-4b38-9c45-0657d90c6e9b">
+						<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					</reportElement>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="69" width="334" height="14" uuid="d63e6722-e2bc-46b1-914d-d29b1406f7d5">
+						<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					</reportElement>
+				</rectangle>
+				<staticText>
+					<reportElement x="50" y="0" width="281" height="13" uuid="f1a687e2-f5cd-4889-ac89-2cc9fab0cc72"/>
+					<textElement textAlignment="Right">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<text><![CDATA[門市編號／店名 ]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="50" y="13" width="281" height="14" uuid="e5afc6af-645a-4469-8594-580688ef7174"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<text><![CDATA[門市地址 ]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="50" y="27" width="281" height="14" uuid="754aa600-a4d9-4000-8533-0bbb9a2775ee"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<text><![CDATA[訪問執行日期 ]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="50" y="41" width="281" height="14" uuid="6566950b-8107-49a5-b315-d8dbd735b76a"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<text><![CDATA[訪問執行時間-開始 ]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="50" y="55" width="281" height="14" uuid="8fcdcc1c-21da-482c-b53f-e5af51d39410"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<text><![CDATA[訪問執行時間-結束 ]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="50" y="69" width="280" height="14" uuid="bd404b86-fa43-493e-b97b-91ac5f7bd1c4"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<text><![CDATA[調查時段 ]]></text>
+				</staticText>
+			</frame>
+			<frame>
+				<reportElement x="15" y="125" width="334" height="55" uuid="d5a6e6dd-b209-442d-b617-09203191b1b2"/>
+				<box>
+					<topPen lineWidth="2.0"/>
+					<leftPen lineWidth="2.0"/>
+					<bottomPen lineWidth="2.0"/>
+					<rightPen lineWidth="2.0"/>
+				</box>
+				<rectangle>
+					<reportElement x="0" y="0" width="334" height="14" uuid="9f5865c2-32b3-4b59-bf62-d84664986c80">
+						<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					</reportElement>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="14" width="334" height="14" uuid="ed42640c-a897-4328-a522-9e0d26ef4c12">
+						<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					</reportElement>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="28" width="334" height="14" uuid="687ce0b1-5220-4adc-adc8-7442ea48f5f8">
+						<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					</reportElement>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="42" width="334" height="14" uuid="31257375-f2b7-45b0-9205-2343a917b9f3">
+						<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					</reportElement>
+				</rectangle>
+				<staticText>
+					<reportElement x="50" y="0" width="281" height="14" uuid="4ba2da4c-0517-4dc9-a11b-cd4a536401ab"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<text><![CDATA[訪員編號 ]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="50" y="14" width="281" height="14" uuid="cc58b79c-c4f1-4e67-8d3c-3c0c61583c35"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<text><![CDATA[訪員性別／年齡 ]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="50" y="28" width="281" height="14" uuid="a908033a-23a3-4ea9-a2f0-60f114e65592"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<text><![CDATA[訪員使用的手機品牌/型號 ]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="50" y="42" width="281" height="15" uuid="5b0ffdd0-2864-419b-9f4b-0f0fa6585e92"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="Microsoft JhengHei" size="9"/>
+					</textElement>
+					<text><![CDATA[訪員使用的平牌品牌/型號 ]]></text>
+				</staticText>
+			</frame>
+			<frame>
+				<reportElement x="350" y="200" width="189" height="33" uuid="479b07d0-8296-4bcf-8edf-1babe4e9a40e">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="2.0"/>
+					<leftPen lineWidth="1.0" lineColor="#000000"/>
+					<bottomPen lineWidth="2.0"/>
+					<rightPen lineWidth="2.0"/>
+				</box>
+				<componentElement>
+					<reportElement x="-1" y="0" width="189" height="33" uuid="2d716318-5ddd-4be2-b16d-f075b51386a7">
+						<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					</reportElement>
+					<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+						<datasetRun subDataset="AanswersDataset" uuid="2fd21e8a-3bdb-4611-8256-41604e8a12fc">
+							<dataSourceExpression><![CDATA[$P{AanswersDatasource}]]></dataSourceExpression>
+						</datasetRun>
+						<jr:column width="96" uuid="04427216-25e0-4c15-906c-cc2421a6914f">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+							<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+							<jr:tableHeader style="Table 7_TH" height="19" rowSpan="1">
+								<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+								<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+								<box>
+									<topPen lineWidth="0.0" lineColor="#FFFFFF"/>
+									<leftPen lineWidth="0.0" lineColor="#000000"/>
+									<bottomPen lineWidth="1.0" lineColor="#FFFFFF"/>
+									<rightPen lineWidth="1.0" lineColor="#FFFFFF"/>
+								</box>
+							</jr:tableHeader>
+							<jr:detailCell style="Table 7_TD" height="14">
+								<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+								<box>
+									<topPen lineWidth="1.0" lineColor="#FFFFFF"/>
+									<leftPen lineWidth="1.0" lineColor="#FFFFFF"/>
+									<bottomPen lineWidth="1.0" lineColor="#FFFFFF"/>
+									<rightPen lineWidth="1.0" lineColor="#FFFFFF"/>
+								</box>
+								<textField>
+									<reportElement x="0" y="0" width="96" height="14" uuid="87b9a3ef-4523-4422-9a90-3fa0b6bdde15"/>
+									<box>
+										<topPen lineWidth="1.0" lineColor="#FFFFFF"/>
+										<leftPen lineWidth="0.0" lineColor="#FFFFFF"/>
+										<bottomPen lineWidth="1.0" lineColor="#FFFFFF"/>
+										<rightPen lineWidth="1.0" lineColor="#FFFFFF"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Microsoft JhengHei" size="9"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{aAnswer1}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="93" uuid="ccfa1b74-5e3d-4b1a-b396-662578a6fadb">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+							<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+							<jr:tableHeader style="Table 7_TH" height="19" rowSpan="1">
+								<box>
+									<topPen lineWidth="1.0" lineColor="#FFFFFF"/>
+									<leftPen lineWidth="1.0" lineColor="#FFFFFF"/>
+									<bottomPen lineWidth="1.0" lineColor="#FFFFFF"/>
+									<rightPen lineWidth="1.0" lineColor="#000000"/>
+								</box>
+								<textField>
+									<reportElement x="0" y="0" width="93" height="19" uuid="1fc1f11e-6c93-4845-8c8d-f8abec3063f6"/>
+									<box>
+										<leftPen lineWidth="1.0" lineColor="#FFFFFF"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Microsoft JhengHei" size="13"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$P{AScore}]]></textFieldExpression>
+								</textField>
+							</jr:tableHeader>
+							<jr:detailCell style="Table 7_TD" height="14">
+								<box>
+									<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+									<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+									<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+									<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+								</box>
+								<textField>
+									<reportElement x="0" y="0" width="93" height="14" uuid="b711a620-5a74-4647-9e54-b9b43534a03e"/>
+									<box>
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+										<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Microsoft JhengHei" size="9"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{aAnswer2}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:table>
+				</componentElement>
+			</frame>
+			<frame>
+				<reportElement x="15" y="200" width="335" height="33" uuid="3bc29dcc-1001-4e1b-bf86-df58a8a9fc93"/>
+				<box>
+					<topPen lineWidth="2.0"/>
+					<leftPen lineWidth="2.0"/>
+					<bottomPen lineWidth="2.0"/>
+					<rightPen lineWidth="2.0"/>
+				</box>
+				<componentElement>
+					<reportElement x="0" y="0" width="335" height="33" uuid="1f74d335-20c5-4b01-be85-25ddff821356">
+						<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					</reportElement>
+					<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+						<datasetRun subDataset="AquestionsDataset" uuid="10d33e99-3278-4506-97c3-014823bae890">
+							<dataSourceExpression><![CDATA[$P{AquestionsDatasource}]]></dataSourceExpression>
+						</datasetRun>
+						<jr:column width="335" uuid="b692e2cf-0b71-440d-acce-a47372ecbd67">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+							<jr:tableHeader style="Table 6_TH" height="19">
+								<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+								<staticText>
+									<reportElement x="0" y="0" width="335" height="19" uuid="889c8d32-cf04-41f4-9487-b17b88c84906"/>
+									<textElement verticalAlignment="Middle">
+										<font fontName="Microsoft JhengHei" size="14"/>
+									</textElement>
+									<text><![CDATA[ A. 人員態度與服務 (60分)]]></text>
+								</staticText>
+							</jr:tableHeader>
+							<jr:detailCell style="Table 6_TD" height="14">
+								<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+								<box topPadding="0" bottomPadding="0">
+									<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+									<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+									<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+									<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+								</box>
+								<textField>
+									<reportElement x="0" y="0" width="335" height="14" uuid="36cf7bb4-ebfa-410f-9133-4e8355427e4f"/>
+									<textElement verticalAlignment="Middle">
+										<font fontName="Microsoft JhengHei" size="9"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{aQuestion}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:table>
+				</componentElement>
+			</frame>
+			<textField>
+				<reportElement x="351" y="13" width="188" height="14" uuid="c3137c2a-97eb-4ab2-8f69-e971773a5743"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Microsoft JhengHei" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{storeAddress}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="83" width="188" height="14" uuid="71105d76-c5ea-496d-a515-66020f8c4bbe"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Microsoft JhengHei" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{storePersonName}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="446" y="139" width="1" height="42" uuid="93d272f8-38ef-4192-aa5d-81f460019c99"/>
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement x="350" y="-1" width="94" height="14" uuid="99dfee93-1509-4056-a678-db1e6f3b5e78"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Microsoft JhengHei" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{storeCode}]]></textFieldExpression>
+			</textField>
+			<frame>
+				<reportElement x="15" y="233" width="335" height="89" uuid="e2b6f541-89a1-43c4-b10a-e5754f65a857"/>
+				<box>
+					<topPen lineWidth="2.0"/>
+					<leftPen lineWidth="2.0"/>
+					<bottomPen lineWidth="2.0"/>
+					<rightPen lineWidth="2.0"/>
+				</box>
+				<componentElement>
+					<reportElement positionType="Float" x="0" y="0" width="335" height="89" uuid="5c4fcd2b-4bac-4ced-938d-89923f50a8c6">
+						<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					</reportElement>
+					<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+						<datasetRun subDataset="B3questionsDataset" uuid="f9cbb64e-60d0-4f94-a3e6-a22adb23cc95">
+							<dataSourceExpression><![CDATA[$P{B3questionsDatasource}]]></dataSourceExpression>
+						</datasetRun>
+						<jr:column width="335" uuid="2f848ea3-7e77-4c1b-886d-11d394f3b570">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							<jr:tableHeader style="Table 9_TH" height="30">
+								<staticText>
+									<reportElement x="0" y="0" width="335" height="30" uuid="0b71b9b0-af61-4e9d-b742-5e4ed40cf09b"/>
+									<textElement textAlignment="Left" verticalAlignment="Middle">
+										<font fontName="Microsoft JhengHei" size="14"/>
+									</textElement>
+									<text><![CDATA[ B. 產品介紹 (40分)]]></text>
+								</staticText>
+							</jr:tableHeader>
+							<jr:columnHeader style="Table 9_CH" height="30">
+								<staticText>
+									<reportElement x="0" y="0" width="335" height="30" forecolor="#FFFFFF" uuid="0d4ad62a-ca90-458c-8608-7403e0c0eb20"/>
+									<textElement verticalAlignment="Middle">
+										<font fontName="Microsoft JhengHei" size="12" isBold="true"/>
+									</textElement>
+									<text><![CDATA[ Galaxy A5 功能介紹 (45分)]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table 9_TD" height="30">
+								<textField>
+									<reportElement x="0" y="0" width="335" height="30" uuid="02c1b248-7a6f-429e-a054-8ad098a56165"/>
+									<textElement textAlignment="Left" verticalAlignment="Middle">
+										<font fontName="Microsoft JhengHei" size="9"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{b3Question}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:table>
+				</componentElement>
+			</frame>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="56">
+			<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+			<textField pattern="第#頁">
+				<reportElement x="235" y="10" width="125" height="20" uuid="cc6b68ce-12da-4ff7-86e9-49f2528bd2f1"/>
+				<textElement textAlignment="Center">
+					<font fontName="Microsoft JhengHei"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>
