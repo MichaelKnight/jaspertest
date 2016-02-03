@@ -1,7 +1,5 @@
 import net.sf.jasperreports.engine.*;
 import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
-import net.sf.jasperreports.engine.design.JasperDesign;
-import net.sf.jasperreports.engine.xml.JRXmlLoader;
 
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -34,20 +32,13 @@ public class Main {
             param.put("column1AHead","A COL 1");
             param.put("column2AHead","A COL 2");
             param.put("column3AHead","A COL 3");
-
-
-            InputStream subReport = Main.class.getResourceAsStream("/subreport.jrxml");
-            JasperDesign jasperDesignSubReport = JRXmlLoader.load(subReport);
-            JasperReport jrSubReport = JasperCompileManager.compileReport(jasperDesignSubReport);
-            JasperPrint jpSubreport = JasperFillManager.fillReport(jrSubReport,param, new JREmptyDataSource(1));
-
             param.put("header","SAMPLE REPORT");
             param.put("theDetails", "THE DETAILS");
+            param.put("detail1Label", "DETAIL BAND 1");
+            param.put("detail2Label", "DETAIL BAND 2");
 
-            InputStream parent = Main.class.getResourceAsStream("/sample_parent.jrxml");
-            JasperDesign jasperDesignParent = JRXmlLoader.load(parent);
-            JasperReport jrParent = JasperCompileManager.compileReport(jasperDesignParent);
-            JasperPrint jpParent = JasperFillManager.fillReport(jrParent, param, new JREmptyDataSource(1));
+            InputStream parent = Main.class.getResourceAsStream("/sample_parent.jasper");
+            JasperPrint jpParent = JasperFillManager.fillReport(parent, param, new JREmptyDataSource(1));
 
             JasperExportManager.exportReportToPdfFile(jpParent, "C:\\REPORTS\\sampleReport.pdf");
 
