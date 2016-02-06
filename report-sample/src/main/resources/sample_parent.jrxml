@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-02-03T01:18:42 -->
+<!-- 2016-02-07T01:15:01 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="sample_parent" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5fccce71-45ad-4f7a-8c65-fd8a690ec2c8">
-	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
 	<parameter name="header" class="java.lang.String"/>
 	<parameter name="theDetails" class="java.lang.String"/>
 	<parameter name="AtableDatasource" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
@@ -22,10 +21,11 @@
 		</band>
 	</pageHeader>
 	<detail>
-		<band height="496" splitType="Stretch">
+		<band height="60" splitType="Stretch">
 			<subreport>
-				<reportElement x="0" y="40" width="555" height="456" uuid="aebc8c0f-7b57-4d4a-b2f7-dc047d4854c5"/>
-				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<reportElement x="0" y="40" width="555" height="20" uuid="aebc8c0f-7b57-4d4a-b2f7-dc047d4854c5"/>
+				<parametersMapExpression><![CDATA[$P{REPORT_PARAMETERS_MAP}]]></parametersMapExpression>
+				<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.JREmptyDataSource(1)]]></dataSourceExpression>
 				<subreportExpression><![CDATA["subreport.jasper"]]></subreportExpression>
 			</subreport>
 			<textField>
