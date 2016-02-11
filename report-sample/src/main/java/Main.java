@@ -32,6 +32,10 @@ public class Main {
             param.put("column1AHead","A COL 1");
             param.put("column2AHead","A COL 2");
             param.put("column3AHead","A COL 3");
+            param.put("tableHeadB","TABLE B HEADER");
+            param.put("column1BHead","B COL 1");
+            param.put("column2BHead","B COL 2");
+            param.put("column3BHead","B COL 3");
             param.put("header","SAMPLE REPORT");
             param.put("theDetails", "THE DETAILS");
             param.put("detail1Label", "DETAIL BAND 1");

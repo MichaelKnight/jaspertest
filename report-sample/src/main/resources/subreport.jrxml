@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-02-03T12:09:54 -->
+<!-- 2016-02-11T10:58:27 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="subreport" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="19165c65-293a-42f1-9c92-0f4ceacaaa39">
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
 	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
@@ -62,9 +62,6 @@
 		<parameter name="column1AHead" class="java.lang.String"/>
 		<parameter name="column2AHead" class="java.lang.String"/>
 		<parameter name="column3AHead" class="java.lang.String"/>
-		<queryString>
-			<![CDATA[]]>
-		</queryString>
 		<field name="column1A" class="java.lang.String"/>
 		<field name="column2A" class="java.lang.String"/>
 		<field name="column3A" class="java.lang.String"/>
@@ -74,9 +71,6 @@
 		<parameter name="column2BHead" class="java.lang.String"/>
 		<parameter name="column3BHead" class="java.lang.String"/>
 		<parameter name="tableHeadB" class="java.lang.String"/>
-		<queryString>
-			<![CDATA[]]>
-		</queryString>
 		<field name="column1B" class="java.lang.String"/>
 		<field name="column2B" class="java.lang.String"/>
 		<field name="column3B" class="java.lang.String"/>
@@ -85,6 +79,14 @@
 	<parameter name="BtableDatasource" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
 	<parameter name="detail1Label" class="java.lang.String"/>
 	<parameter name="detail2Label" class="java.lang.String"/>
+	<parameter name="tableHeadA" class="java.lang.String"/>
+	<parameter name="column1AHead" class="java.lang.String"/>
+	<parameter name="column2AHead" class="java.lang.String"/>
+	<parameter name="column3AHead" class="java.lang.String"/>
+	<parameter name="tableHeadB" class="java.lang.String"/>
+	<parameter name="column1BHead" class="java.lang.String"/>
+	<parameter name="column2BHead" class="java.lang.String"/>
+	<parameter name="column3BHead" class="java.lang.String"/>
 	<queryString>
 		<![CDATA[]]>
 	</queryString>
@@ -99,6 +101,18 @@
 				</reportElement>
 				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
 					<datasetRun subDataset="ATableDataset" uuid="8ac10f33-c9e3-4678-8280-2830a76f72c6">
+						<datasetParameter name="tableHeadA">
+							<datasetParameterExpression><![CDATA[$P{tableHeadA}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="column1AHead">
+							<datasetParameterExpression><![CDATA[$P{column1AHead}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="column2AHead">
+							<datasetParameterExpression><![CDATA[$P{column2AHead}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="column3AHead">
+							<datasetParameterExpression><![CDATA[$P{column3AHead}]]></datasetParameterExpression>
+						</datasetParameter>
 						<dataSourceExpression><![CDATA[$P{AtableDatasource}]]></dataSourceExpression>
 					</datasetRun>
 					<jr:column width="185" uuid="b872c235-6291-4807-bcdd-7f7ad90a54d1">
@@ -193,6 +207,18 @@
 				</reportElement>
 				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
 					<datasetRun subDataset="BtableDataset" uuid="b81c5182-f7d0-4029-b8c9-1a01b6ec016b">
+						<datasetParameter name="tableHeadB">
+							<datasetParameterExpression><![CDATA[$P{tableHeadB}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="column1BHead">
+							<datasetParameterExpression><![CDATA[$P{column1BHead}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="column2BHead">
+							<datasetParameterExpression><![CDATA[$P{column2BHead}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="column3BHead">
+							<datasetParameterExpression><![CDATA[$P{column3BHead}]]></datasetParameterExpression>
+						</datasetParameter>
 						<dataSourceExpression><![CDATA[$P{BtableDatasource}]]></dataSourceExpression>
 					</datasetRun>
 					<jr:column width="185" uuid="71d6d5eb-e2a6-4547-8f61-3a56ec183ef9">
