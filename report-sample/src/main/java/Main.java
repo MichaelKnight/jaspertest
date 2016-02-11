@@ -12,6 +12,9 @@ public class Main {
 
         List<TableAItem> tableAItems = new ArrayList<>();
         List<TableBItem> tableBItems = new ArrayList<>();
+        List<Double> lineChartIndividual = new ArrayList<>();
+        List<Double> lineChartTeam = new ArrayList<>();
+        List<String> lineCategories = new ArrayList<>();
 
         tableAItems.add(new TableAItem("item 1","item 1","item 1"));
         tableAItems.add(new TableAItem("item 2","item 2","item 2"));
@@ -19,6 +22,20 @@ public class Main {
         tableBItems.add(new TableBItem("item 1", "item 1", "item 1"));
         tableBItems.add(new TableBItem("item 2", "item 2", "item 2"));
 
+        lineChartIndividual.add(54.9);
+        lineChartIndividual.add(57.5);
+        lineChartIndividual.add(52.9);
+        lineChartIndividual.add(55.4);
+
+        lineChartTeam.add(20.0);
+        lineChartTeam.add(30.0);
+        lineChartTeam.add(31.3);
+        lineChartTeam.add(40.0);
+
+        lineCategories.add("2016 Q1");
+        lineCategories.add("2015 Q4");
+        lineCategories.add("2015 Q3");
+        lineCategories.add("2015 Q2");
 
         try {
 
@@ -28,6 +45,13 @@ public class Main {
             param.put("AtableDatasource", tableA);
             JRBeanCollectionDataSource tableB = new JRBeanCollectionDataSource(tableBItems);
             param.put("BtableDatasource", tableB);
+            JRBeanCollectionDataSource lineIndividual = new JRBeanCollectionDataSource(lineChartIndividual);
+            param.put("lineChartIndividual",lineIndividual);
+            JRBeanCollectionDataSource lineTeam = new JRBeanCollectionDataSource(lineChartTeam);
+            param.put("lineChartTeam",lineTeam);
+            JRBeanCollectionDataSource lineChartCategories = new JRBeanCollectionDataSource(lineCategories);
+            param.put("lineChartCategories", lineChartCategories);
+
             param.put("tableHeadA","TABLE A HEADER");
             param.put("column1AHead","A COL 1");
             param.put("column2AHead","A COL 2");
