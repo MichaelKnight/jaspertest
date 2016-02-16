@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-02-16T17:48:06 -->
+<!-- 2016-02-17T03:38:02 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="sample_parent" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5fccce71-45ad-4f7a-8c65-fd8a690ec2c8">
 	<subDataset name="barcharDataset" uuid="8ec51e08-8f71-46f9-bfdb-dedad4311ea3">
 		<field name="serie" class="java.lang.String"/>
@@ -47,7 +47,7 @@
 			<frame>
 				<reportElement positionType="Float" x="57" y="71" width="440" height="249" uuid="6906e4d3-7ba0-414e-8e0d-72c7ba27e55a"/>
 				<barChart>
-					<chart evaluationTime="Report" theme="default">
+					<chart evaluationTime="Report" customizerClass="com.test.jasper.BarChartCustomizer" theme="default">
 						<reportElement x="0" y="0" width="440" height="249" uuid="91e45227-5a9f-4846-9712-931214276f0a"/>
 						<box topPadding="5" bottomPadding="6" rightPadding="20">
 							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -80,7 +80,7 @@
 							<font fontName="SansSerif" size="16" isBold="true" isStrikeThrough="false"/>
 						</itemLabel>
 						<categoryAxisFormat>
-							<axisFormat labelColor="#000000" tickLabelColor="#000000" axisLineColor="#000000">
+							<axisFormat labelColor="#000000" tickLabelColor="#000000" axisLineColor="#A1A1A1">
 								<labelFont>
 									<font fontName="SansSerif" size="10" isStrikeThrough="false"/>
 								</labelFont>
@@ -90,7 +90,7 @@
 							</axisFormat>
 						</categoryAxisFormat>
 						<valueAxisFormat>
-							<axisFormat labelColor="#000000" tickLabelColor="#000000" verticalTickLabels="false" axisLineColor="#000000">
+							<axisFormat labelColor="#000000" tickLabelColor="#000000" verticalTickLabels="false" axisLineColor="#868686">
 								<labelFont>
 									<font fontName="SansSerif" isBold="false" isStrikeThrough="false"/>
 								</labelFont>
@@ -99,8 +99,6 @@
 								</tickLabelFont>
 							</axisFormat>
 						</valueAxisFormat>
-						<rangeAxisMinValueExpression><![CDATA[0.00]]></rangeAxisMinValueExpression>
-						<rangeAxisMaxValueExpression><![CDATA[100.00]]></rangeAxisMaxValueExpression>
 					</barPlot>
 				</barChart>
 			</frame>

@@ -1,3 +1,5 @@
+package com.test.jasper;
+
 import net.sf.jasperreports.engine.*;
 import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 
