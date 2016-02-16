@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-02-16T16:05:34 -->
+<!-- 2016-02-16T17:48:06 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="sample_parent" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5fccce71-45ad-4f7a-8c65-fd8a690ec2c8">
 	<subDataset name="barcharDataset" uuid="8ec51e08-8f71-46f9-bfdb-dedad4311ea3">
 		<field name="serie" class="java.lang.String"/>
@@ -49,6 +49,12 @@
 				<barChart>
 					<chart evaluationTime="Report" theme="default">
 						<reportElement x="0" y="0" width="440" height="249" uuid="91e45227-5a9f-4846-9712-931214276f0a"/>
+						<box topPadding="5" bottomPadding="6" rightPadding="20">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
 						<chartTitle/>
 						<chartSubtitle/>
 						<chartLegend/>
@@ -79,7 +85,7 @@
 									<font fontName="SansSerif" size="10" isStrikeThrough="false"/>
 								</labelFont>
 								<tickLabelFont>
-									<font fontName="SansSerif" size="9" isStrikeThrough="false"/>
+									<font fontName="SansSerif" size="10" isStrikeThrough="false"/>
 								</tickLabelFont>
 							</axisFormat>
 						</categoryAxisFormat>
