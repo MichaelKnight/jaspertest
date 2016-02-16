@@ -26,6 +26,11 @@
             <artifactId>groovy-all</artifactId>
             <version>${groovy.version}</version>
         </dependency>
+        <!--<dependency>-->
+            <!--<groupId>tw.com.rosettatech</groupId>-->
+            <!--<artifactId>custom-chart-theme</artifactId>-->
+            <!--<version>1.0</version>-->
+        <!--</dependency>-->
     </dependencies>
 
 

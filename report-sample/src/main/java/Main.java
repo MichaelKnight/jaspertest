@@ -12,9 +12,6 @@ public class Main {
 
         List<TableAItem> tableAItems = new ArrayList<>();
         List<TableBItem> tableBItems = new ArrayList<>();
-        List<Double> lineChartIndividual = new ArrayList<>();
-        List<Double> lineChartTeam = new ArrayList<>();
-        List<String> lineCategories = new ArrayList<>();
 
         tableAItems.add(new TableAItem("item 1","item 1","item 1"));
         tableAItems.add(new TableAItem("item 2","item 2","item 2"));
@@ -22,20 +19,23 @@ public class Main {
         tableBItems.add(new TableBItem("item 1", "item 1", "item 1"));
         tableBItems.add(new TableBItem("item 2", "item 2", "item 2"));
 
-        lineChartIndividual.add(54.9);
-        lineChartIndividual.add(57.5);
-        lineChartIndividual.add(52.9);
-        lineChartIndividual.add(55.4);
+        List<BarChartItem> barElements = new ArrayList<>();
+        barElements.add(new BarChartItem("INDIVIDUAL PERFORMANCE", "TOTAL", 100.00));
+        barElements.add(new BarChartItem("INDIVIDUAL PERFORMANCE", "NEW PRODUCTS", 20.00));
+        barElements.add(new BarChartItem("INDIVIDUAL PERFORMANCE", "PERFORMANCE", 80.90));
+        barElements.add(new BarChartItem("TEAM PERFORMANCE", "TOTAL", 74.90));
+        barElements.add(new BarChartItem("TEAM PERFORMANCE", "NEW PRODUCTS", 90.88));
+        barElements.add(new BarChartItem("TEAM PERFORMANCE", "PERFORMANCE", 54.90));
 
-        lineChartTeam.add(20.0);
-        lineChartTeam.add(30.0);
-        lineChartTeam.add(31.3);
-        lineChartTeam.add(40.0);
-
-        lineCategories.add("2016 Q1");
-        lineCategories.add("2015 Q4");
-        lineCategories.add("2015 Q3");
-        lineCategories.add("2015 Q2");
+        List<LineChartItem> lineElements = new ArrayList<>();
+        lineElements.add(new LineChartItem("INDIVIDUAL", "2016 Q1\n(1訪)", 54.90));
+        lineElements.add(new LineChartItem("INDIVIDUAL", "2015 Q4", 57.50));
+        lineElements.add(new LineChartItem("INDIVIDUAL", "2015 Q3", 52.90));
+        lineElements.add(new LineChartItem("INDIVIDUAL", "2015 Q2", 55.40));
+        lineElements.add(new LineChartItem("TEAM", "2016 Q1\n(1訪)", 20.00));
+        lineElements.add(new LineChartItem("TEAM", "2015 Q4", 30.00));
+        lineElements.add(new LineChartItem("TEAM", "2015 Q3", 31.30));
+        lineElements.add(new LineChartItem("TEAM", "2015 Q2", 40.00));
 
         try {
 
@@ -45,12 +45,11 @@ public class Main {
             param.put("AtableDatasource", tableA);
             JRBeanCollectionDataSource tableB = new JRBeanCollectionDataSource(tableBItems);
             param.put("BtableDatasource", tableB);
-            JRBeanCollectionDataSource lineIndividual = new JRBeanCollectionDataSource(lineChartIndividual);
-            param.put("lineChartIndividual",lineIndividual);
-            JRBeanCollectionDataSource lineTeam = new JRBeanCollectionDataSource(lineChartTeam);
-            param.put("lineChartTeam",lineTeam);
-            JRBeanCollectionDataSource lineChartCategories = new JRBeanCollectionDataSource(lineCategories);
-            param.put("lineChartCategories", lineChartCategories);
+            JRBeanCollectionDataSource barChart = new JRBeanCollectionDataSource(barElements);
+            param.put("barChartDatasource", barChart);
+            JRBeanCollectionDataSource lineChart = new JRBeanCollectionDataSource(lineElements);
+            param.put("lineChartDatasource", lineChart);
+
 
             param.put("tableHeadA","TABLE A HEADER");
             param.put("column1AHead","A COL 1");
