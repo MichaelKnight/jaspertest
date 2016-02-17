@@ -30,6 +30,7 @@ public class BarChartCustomizer extends JRAbstractChartCustomizer {
         numberFormat.setMaximumFractionDigits(2);
         numberFormat.setMinimumFractionDigits(2);
         rangeAxis.setNumberFormatOverride(numberFormat);
-        rangeAxis.setUpperMargin(0.05);
+        rangeAxis.setUpperMargin(0.2);
+        rangeAxis.setAutoRange(true); //make sure that fixed range is not set
     }
 }
